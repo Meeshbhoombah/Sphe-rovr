@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body {
+    background-color: #43BBD4;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+nav {
+    margin: 20px 0px 20px 0px;
+}
+
+img.brand-icon {
+    height: 10vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    text-align: center;
+}
+
+header a {
+    color: #FF0066;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #CC0066;
+}
+
+#description {
+    text-align: center;
+}
+
+a .btn.btn-default {
+    -webkit-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -moz-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -o-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -ms-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 20px;
+}
+
+a .btn.btn-default:hover {
+    -webkit-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -moz-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -o-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -ms-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    background-color: white; 
+    color: #43BBD4;
+}
+
+#objects {
+    text-align: center;
+    color: #43BBD4;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+footer a {
+    color: #FF0066;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #CC0066;
+}
